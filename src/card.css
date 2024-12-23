@@ -1,0 +1,79 @@
+.cardContainer{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 600px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+.cardImg{
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+  transition: all 0.8s ease-in;
+}
+.cardImg:hover{
+    transform: scale(0.95);
+
+}
+.details{
+    /* background-color: green; */
+    padding:10px;
+    width: 40%;
+    align-content: center;
+
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.description{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(97, 94, 94);
+}
+.price{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.addbtn,.wishbtn{
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 5px 10px 5px 10px;
+    margin: 0px 2px;
+}
+.addbtn:hover{
+    background-color: goldenrod;
+    box-shadow: 5px 5px 5px grey;
+}
+.size{
+    display: flex;
+}
+.size span{
+    display: block;
+    background-color: rgb(235, 235, 157);
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    text-align: center;
+    font-weight: 600;
+    color: grey;
+    margin: 0px 3px;
+    margin-bottom: 10px;
+    align-content: center;
+    border-radius: 10px;
+}
+.size span:hover{
+    background-color: darkcyan;
+    color: white;
+}
